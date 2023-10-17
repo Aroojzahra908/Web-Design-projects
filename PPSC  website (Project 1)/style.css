@@ -1,0 +1,275 @@
+    *{
+    margin: 0;
+    padding: 0;
+}
+.container
+{
+    width: 100%;
+    float: left;
+}
+.header
+{
+    width: 100%;
+    float: left;
+}
+.navbar ul
+{
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 12px 14px;
+    overflow: hidden;
+    width: fit-content;
+}
+.navbar li 
+{
+    float: left;
+    list-style: none;
+}
+.navbar li a 
+{
+    display: block;
+    padding: 8px;
+    background-color: #2F8831;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    border: 1px white solid;
+    padding: 8px 66px;
+}
+
+.footer
+{
+    width: 100%;
+    float: left;
+    background-color: #2F8831;
+    
+}
+
+.foot-cnt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+.foot-cnt p{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.link a{
+    color: white;
+    padding: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    border-left :solid 2px white ;
+}
+
+.body
+{
+    width: 100%;
+    float: left;
+}
+.left
+{
+    width: 24.7%;
+    float: left;
+    border: 1px solid #eaf0be;;
+    background-color: #f7faf1;
+
+}
+/* .pic1 
+{
+float: left;
+width: 32%;
+} */
+.pic1 img
+{
+    width: 100%;
+    float: left;
+}
+.center
+{
+    width: 45%;
+    margin-left: 5%;
+    float: left;
+
+}
+.right
+{
+    width: 24.7%;
+    float: left;
+    border: 1px solid #eaf0be;;
+    background-color: #f7faf1;
+   
+}
+
+.left td{
+    padding: 20px;
+    margin: 10px;
+}
+.left td h1{
+    padding: 0px;
+    text-align: center;
+    padding: 5px;
+    font-size: 1rem;
+    font-weight: bolder;
+    background-color: #2F8831;
+    color: white;
+    border: 1px solid #2F8831;
+    width: 100%;
+}
+.left table li{
+    list-style: none;
+    padding: 10px;
+    margin: 5px;
+    border-bottom: 1px dashed #cececd;
+    
+}
+
+
+.left table li a{
+    color: #104087;
+    padding: 4px;
+    width: 90%;
+    text-align: center;
+}
+.arrow{
+    padding-right: 5px;
+    color: #000;
+    font-weight: bold;
+}
+
+.right table{
+    width: 100%;
+}
+.left table{
+    width: 100%;
+}
+
+.right td{
+    padding: 20px;
+    margin: 10px;
+}
+
+.right td h1{
+    padding: 0px;
+    text-align: center;
+    padding: 5px;
+    font-size: 1rem;
+    font-weight: bolder;
+    background-color: #2F8831;
+    color: white;
+    border: 1px solid #2F8831;
+    width: 100%;
+}
+.right table li{
+    list-style: none;
+    padding: 10px;
+    margin: 5px;
+    border-bottom: 1px dashed #cececd;
+    text-align: center;
+}
+.black{
+    background-color: #2f3033;
+    color: white;
+    padding: 8px;
+    border-radius: 15px;
+    box-shadow: 0px 3px 6px 0px rgb(0 0 0 / 75%);
+    text-align: center;
+}
+.black h2{
+    font-size: 1.5rem;
+}
+.black span{
+    color: #2F8831;
+    margin-left: 4px;
+}
+
+.right ul li input{
+    border: 1px solid #666;
+    width: 200px;
+    padding: 10px;
+    font-size: 13px;
+    width: 100%;
+    font-weight: bold;
+    color: #0c2d5f;
+    text-shadow: 0 1px 0 rgba(255,255,255,.8);
+    border-radius: 3px;
+    box-shadow: 0 0 1px 1px rgba(255,255,255,.8) inset, 0 1px 0 rgba(0,0,0,.3);
+    cursor: pointer;
+}
+
+.upper{
+    padding: 8px;
+}
+.upper h1{
+    padding: 0px;
+    text-align: center;
+    padding: 5px;
+    font-size: 1rem;
+    font-weight: bolder;
+    background-color: #2F8831;
+    color: white;
+    border: 1px solid #2F8831;
+    width: 100%;
+}
+.upper p{
+    font-size: 15px;
+    text-align: left;
+    margin-left: 8px;
+    padding: 10px;
+    letter-spacing: 1px;
+    line-height: 1.3;
+}
+.mid{
+    padding: 8px;
+}
+.mid h1{
+    padding: 0px;
+    text-align: center;
+    padding: 5px;
+    font-size: 1rem;
+    font-weight: bolder;
+    background-color: #2F8831;
+    color: white;
+    border: 1px solid #2F8831;
+    width: 100%;
+}
+.mid a {
+    color: #0000FF;
+    margin-top: 4px;
+    padding: 10px;
+}
+.lower{
+    padding: 8px;
+}
+.lower h1{
+    padding: 0px;
+    text-align: center;
+    padding: 5px;
+    font-size: 1rem;
+    font-weight: bolder;
+    background-color: #2F8831;
+    color: white;
+    border: 1px solid #2F8831;
+    width: 100%;
+}
+.lower a{
+    color: #0000FF;
+}
+.last{
+    padding: 0px;
+    text-align: center;
+    padding: 5px;
+    font-size: 1rem;
+    font-weight: bolder;
+    background-color: #eae9e9;;
+    color: #0000FF;
+    border: 1px solid #eae9e9;;
+    width: 100%;
+}
+
